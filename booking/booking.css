@@ -1,0 +1,54 @@
+.form{
+    width:500px;
+    height: 300px;
+    margin:auto;
+    display:flex;
+    flex-direction: column;
+    border:1px lightgrey;
+    box-shadow: 0.5px 0.5px 5px 0.1px grey;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin-top:100px
+}
+
+.input{
+    width:250px;
+    margin:auto
+}
+h2{
+    color: brown;
+    margin:auto;
+    
+}
+header{
+    font-size: large;
+    margin:0 auto;
+    width:auto;
+    
+}
+nav{
+    width:200px;
+    margin:auto;
+    color:blue;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+button{
+    background-color: blue;
+    color:white;
+    border:none;
+    cursor:pointer;
+    width:70px;
+    height: 30px;
+    border-radius: 5px;
+    margin:auto
+}
+@media (max-width:500px){
+    .form{
+        width:300px;
+        height: 300px;
+    }
+}
